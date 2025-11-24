@@ -1,0 +1,60 @@
+{
+    "info": {
+        "description": "도시 소리 데이터",
+        "uri": "https://www.aihub.or.kr",
+        "version": 1.0,
+        "year": 2021,
+        "contributor": "IMR",
+        "dateCreated": "2021-10-24"
+    },
+    "license": {
+        "url": "https://www.aihub.or.kr",
+        "name": "CC 0"
+    },
+    "audio": {
+        "fileName": "4.열차_30490.wav",
+        "fileSize": 1857080,
+        "duration": 21.055,
+        "fileFormat": "wav",
+        "sampleRate": "44.1kHz",
+        "bitRate": "705kbps",
+        "recodingType": "Mono"
+    },
+    "environment": {
+        "recordingTime": "15:43",
+        "dayNight": "주간",
+        "urban": "인천광역시",
+        "district": "계양1동",
+        "place": "도로변",
+        "areaUse": "주거지역",
+        "weather": "맑음",
+        "direction": "아래",
+        "distance": "15m",
+        "obstacle": "없음",
+        "acqMethod": "자연적",
+        "acqType": "제작",
+        "acqDevice": "TASCAM DR-05X",
+        "micClass": "무지향성",
+        "gps": {
+            "latitude": 37.57,
+            "longitude": 126.74
+        }
+    },
+    "annotations": [
+        {
+            "labelName": "4.열차_30490_1.wav",
+            "area": {
+                "start": 0.42,
+                "end": 20.67
+            },
+            "categories": {
+                "category_01": "교통소음",
+                "category_02": "열차",
+                "category_03": "지하철"
+            },
+            "subCategory": "지하철",
+            "soundQuality": "정상",
+            "decibel": 70
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "info": {
+        "description": "도시 소리 데이터",
+        "uri": "https://www.aihub.or.kr",
+        "version": 1.0,
+        "year": 2021,
+        "contributor": "IMR",
+        "dateCreated": "2021-09-04"
+    },
+    "license": {
+        "url": "https://www.aihub.or.kr",
+        "name": "CC 0"
+    },
+    "audio": {
+        "fileName": "2.이륜자동차_2368.wav",
+        "fileSize": 1530544,
+        "duration": 8.676,
+        "fileFormat": "wav",
+        "sampleRate": "44.1kHz",
+        "bitRate": "1411kbps",
+        "recodingType": "Stereo"
+    },
+    "environment": {
+        "recordingTime": "14:03",
+        "dayNight": "주간",
+        "urban": "서울특별시",
+        "district": "공덕동",
+        "place": "도로변",
+        "areaUse": "주거지역",
+        "weather": "맑음",
+        "direction": "우",
+        "distance": "10m",
+        "obstacle": "없음",
+        "acqMethod": "자연적",
+        "acqType": "제작",
+        "acqDevice": "갤럭시탭6",
+        "micClass": "무지향성",
+        "gps": {
+            "latitude": 37.55,
+            "longitude": 126.96
+        }
+    },
+    "annotations": [
+        {
+            "labelName": "2.이륜자동차_2368_1.wav",
+            "area": {
+                "start": 2,
+                "end": 4.27
+            },
+            "categories": {
+                "category_01": "교통소음",
+                "category_02": "이륜자동차",
+                "category_03": "이륜차주행음"
+            },
+            "subCategory": "이륜차주행음",
+            "soundQuality": "정상",
+            "decibel": 73
+        }
+    ]
+}

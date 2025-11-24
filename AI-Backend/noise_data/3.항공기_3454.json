@@ -1,0 +1,60 @@
+{
+    "info": {
+        "description": "도시 소리 데이터",
+        "uri": "https://www.aihub.or.kr",
+        "version": 1.0,
+        "year": 2021,
+        "contributor": "IMR",
+        "dateCreated": "2021-09-04"
+    },
+    "license": {
+        "url": "https://www.aihub.or.kr",
+        "name": "CC 0"
+    },
+    "audio": {
+        "fileName": "3.항공기_3454.wav",
+        "fileSize": 6327840,
+        "duration": 35.872,
+        "fileFormat": "wav",
+        "sampleRate": "44.1kHz",
+        "bitRate": "1411kbps",
+        "recodingType": "Stereo"
+    },
+    "environment": {
+        "recordingTime": "12:09",
+        "dayNight": "주간",
+        "urban": "광주광역시",
+        "district": "소촌동",
+        "place": "도로변",
+        "areaUse": "주거지역",
+        "weather": "맑음",
+        "direction": "우",
+        "distance": "7000m",
+        "obstacle": "없음",
+        "acqMethod": "자연적",
+        "acqType": "제작",
+        "acqDevice": "아이폰12mini",
+        "micClass": "무지향성",
+        "gps": {
+            "latitude": 35.15,
+            "longitude": 126.8
+        }
+    },
+    "annotations": [
+        {
+            "labelName": "3.항공기_3454_1.wav",
+            "area": {
+                "start": 2,
+                "end": 33.872
+            },
+            "categories": {
+                "category_01": "교통소음",
+                "category_02": "항공기",
+                "category_03": "비행기"
+            },
+            "subCategory": "민간항공기",
+            "soundQuality": "노이즈",
+            "decibel": 127
+        }
+    ]
+}

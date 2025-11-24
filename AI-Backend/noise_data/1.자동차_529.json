@@ -1,0 +1,60 @@
+{
+    "info": {
+        "description": "도시 소리 데이터",
+        "uri": "https://www.aihub.or.kr",
+        "version": 1.0,
+        "year": 2021,
+        "contributor": "IMR",
+        "dateCreated": "2021-09-04"
+    },
+    "license": {
+        "url": "https://www.aihub.or.kr",
+        "name": "CC 0"
+    },
+    "audio": {
+        "fileName": "1.자동차_529.wav",
+        "fileSize": 1447168,
+        "duration": 16.407,
+        "fileFormat": "wav",
+        "sampleRate": "44.1kHz",
+        "bitRate": "705kbps",
+        "recodingType": "Mono"
+    },
+    "environment": {
+        "recordingTime": "17:44",
+        "dayNight": "주간",
+        "urban": "서울특별시",
+        "district": "연남동",
+        "place": "기타",
+        "areaUse": "주거지역",
+        "weather": "맑음",
+        "direction": "우",
+        "distance": "10m",
+        "obstacle": "없음",
+        "acqMethod": "자연적",
+        "acqType": "제작",
+        "acqDevice": "갤럭시탭S6",
+        "micClass": "무지향성",
+        "gps": {
+            "latitude": 37.57,
+            "longitude": 126.92
+        }
+    },
+    "annotations": [
+        {
+            "labelName": "1.자동차_529_1.wav",
+            "area": {
+                "start": 2,
+                "end": 14.407
+            },
+            "categories": {
+                "category_01": "교통소음",
+                "category_02": "자동차",
+                "category_03": "차량사이렌"
+            },
+            "subCategory": "구급차",
+            "soundQuality": "노이즈",
+            "decibel": 74
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+# 프로젝트 실행 가이드 (요약)
+
+[환경]
+- Node.js 18.x LTS, npm 9+
+- Python 3.11 (권장)
+- 브라우저: Chrome 최신
+
+[폴더 구조]
+AI_Backend/
+  ├─ noise_analysis.py     # 학습 코드(모델 학습/저장)
+  ├─ app.py                # 학습된 모델 서빙(Flask)
+  ├─ requirements.txt      # 백엔드 파이썬 의존성
+  ├─ feature_list.json     # 서빙 스키마(컬럼 순서 고정)
+  ├─ cat_cols.json         # 범주형 컬럼 목록
+  ├─ noise_model_자동차.pkl
+  ├─ noise_model_이륜자동차.pkl
+  └─ noise_model_열차.pkl
+
+frontend/
+  ├─ package.json
+  ├─ package-lock.json
+  ├─ src/, public/
+  └─ (옵션) .env.example   # REACT_APP_API_BASE 템플릿
+
+[백엔드 실행]
+1) 터미널에서:
+   cd AI_Backend
+   pip install -r requirements.txt
+   python app.py
+   # 서버: http://127.0.0.1:5001  (CORS 허용)
+
+[프론트엔드 실행]
+1) 새 터미널에서:
+   cd frontend
+   npm ci   # 없으면 npm install
+2) 환경변수 설정:
+   - .env.example가 있으면 복사:
+     cp .env.example .env  (Windows는 파일 복사 후 이름을 .env로 변경)
+   - 없다면 .env를 만들고 다음 한 줄을 추가:
+     REACT_APP_API_BASE=http://127.0.0.1:5001
+3) 개발 서버:
+   npm start
+   # 브라우저: http://localhost:3000
+
+[재현 체크]
+- 지도에서 마커 이동/클릭 → 24시간 dB 예측 곡선과 시간대별 원인표가 즉시 갱신되면 정상.
+- 좌표는 '서울' 경계 내에서만 동작하도록 제한.
+
+[참고]
+- node_modules/, __pycache__/ 등은 제출 ZIP에 포함하지 않음(용량/오류 방지).
+- 모델 재학습이 필요하면 AI_Backend/noise_analysis.py를 실행해 .pkl과 스키마(json) 산출 후 app.py로 서빙.

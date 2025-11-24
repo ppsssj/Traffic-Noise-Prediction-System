@@ -1,0 +1,60 @@
+{
+    "info": {
+        "description": "도시 소리 데이터",
+        "uri": "https://www.aihub.or.kr",
+        "version": 1.0,
+        "year": 2021,
+        "contributor": "IMR",
+        "dateCreated": "2021-10-08"
+    },
+    "license": {
+        "url": "https://www.aihub.or.kr",
+        "name": "CC 0"
+    },
+    "audio": {
+        "fileName": "1.자동차_23630.wav",
+        "fileSize": 502690,
+        "duration": 5.653,
+        "fileFormat": "wav",
+        "sampleRate": "44.1kHz",
+        "bitRate": "705kbps",
+        "recodingType": "Mono"
+    },
+    "environment": {
+        "recordingTime": "13:35",
+        "dayNight": "주간",
+        "urban": "서울특별시",
+        "district": "노량진동",
+        "place": "도로변",
+        "areaUse": "상업지역",
+        "weather": "비",
+        "direction": "좌",
+        "distance": "5m",
+        "obstacle": "없음",
+        "acqMethod": "자연적",
+        "acqType": "제작",
+        "acqDevice": "iPHONE 12 mini",
+        "micClass": "무지향성",
+        "gps": {
+            "latitude": 37.51,
+            "longitude": 126.94
+        }
+    },
+    "annotations": [
+        {
+            "labelName": "1.자동차_23630_1.wav",
+            "area": {
+                "start": 0.01,
+                "end": 5.65
+            },
+            "categories": {
+                "category_01": "교통소음",
+                "category_02": "자동차",
+                "category_03": "차량사이렌"
+            },
+            "subCategory": "구급차",
+            "soundQuality": "정상",
+            "decibel": 74
+        }
+    ]
+}

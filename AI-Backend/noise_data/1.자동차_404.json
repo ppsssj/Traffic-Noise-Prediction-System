@@ -1,0 +1,60 @@
+{
+    "info": {
+        "description": "도시 소리 데이터",
+        "uri": "https://www.aihub.or.kr",
+        "version": 1.0,
+        "year": 2021,
+        "contributor": "IMR",
+        "dateCreated": "2021-09-04"
+    },
+    "license": {
+        "url": "https://www.aihub.or.kr",
+        "name": "CC 0"
+    },
+    "audio": {
+        "fileName": "1.자동차_404.wav",
+        "fileSize": 3448796,
+        "duration": 19.551,
+        "fileFormat": "wav",
+        "sampleRate": "44.1kHz",
+        "bitRate": "1411kbps",
+        "recodingType": "Stereo"
+    },
+    "environment": {
+        "recordingTime": "11:40",
+        "dayNight": "주간",
+        "urban": "성남시",
+        "district": "구미동",
+        "place": "빌딩사이",
+        "areaUse": "주거지역",
+        "weather": "맑음",
+        "direction": "좌",
+        "distance": "2m",
+        "obstacle": "없음",
+        "acqMethod": "자연적",
+        "acqType": "제작",
+        "acqDevice": "갤럭시S6Tab",
+        "micClass": "무지향성",
+        "gps": {
+            "latitude": 37.35,
+            "longitude": 127.12
+        }
+    },
+    "annotations": [
+        {
+            "labelName": "1.자동차_404_1.wav",
+            "area": {
+                "start": 2,
+                "end": 17.551
+            },
+            "categories": {
+                "category_01": "교통소음",
+                "category_02": "자동차",
+                "category_03": "차량사이렌"
+            },
+            "subCategory": "구급차",
+            "soundQuality": "노이즈",
+            "decibel": 101
+        }
+    ]
+}

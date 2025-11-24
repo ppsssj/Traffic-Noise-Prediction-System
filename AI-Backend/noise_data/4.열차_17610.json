@@ -1,0 +1,60 @@
+{
+    "info": {
+        "description": "도시 소리 데이터",
+        "uri": "https://www.aihub.or.kr",
+        "version": 1.0,
+        "year": 2021,
+        "contributor": "IMR",
+        "dateCreated": "2021-09-06"
+    },
+    "license": {
+        "url": "https://www.aihub.or.kr",
+        "name": "CC 0"
+    },
+    "audio": {
+        "fileName": "4.열차_17610.wav",
+        "fileSize": 1677302,
+        "duration": 19.017,
+        "fileFormat": "wav",
+        "sampleRate": "44.1kHz",
+        "bitRate": "705kbps",
+        "recodingType": "Mono"
+    },
+    "environment": {
+        "recordingTime": "16:00",
+        "dayNight": "주간",
+        "urban": "수원시",
+        "district": "매산동",
+        "place": "빌딩사이",
+        "areaUse": "상업지역",
+        "weather": "맑음",
+        "direction": "우",
+        "distance": "14m",
+        "obstacle": "없음",
+        "acqMethod": "자연적",
+        "acqType": "제작",
+        "acqDevice": "TASCAMDR-05X",
+        "micClass": "무지향성",
+        "gps": {
+            "latitude": 37.27,
+            "longitude": 127.0
+        }
+    },
+    "annotations": [
+        {
+            "labelName": "4.열차_17610_1.wav",
+            "area": {
+                "start": 2,
+                "end": 17.017
+            },
+            "categories": {
+                "category_01": "교통소음",
+                "category_02": "열차",
+                "category_03": "기차"
+            },
+            "subCategory": "고속열차",
+            "soundQuality": "노이즈",
+            "decibel": 71
+        }
+    ]
+}

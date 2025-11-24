@@ -1,0 +1,18 @@
+{
+  "hour": 12,
+  "urban": "서울특별시",
+  "district": "영등포동",
+  "place": "도로변",
+  "areaUse": "상업지역",
+  "weather": "맑음",
+  "obstacle": "없음",
+  "distance_m": 10,
+  "latitude": 37.52,
+  "longitude": 126.91,
+  "duration": 5.6,
+  "sampleRate_kHz": 44.1,
+  "category_01": "교통소음",
+  "category_02": "자동차",
+  "category_03": "차량경적",
+  "subCategory": "소형차경적"
+}

@@ -1,0 +1,60 @@
+{
+    "info": {
+        "description": "도시 소리 데이터",
+        "uri": "https://www.aihub.or.kr",
+        "version": 1.0,
+        "year": 2021,
+        "contributor": "IMR",
+        "dateCreated": "2021-09-06"
+    },
+    "license": {
+        "url": "https://www.aihub.or.kr",
+        "name": "CC 0"
+    },
+    "audio": {
+        "fileName": "3.항공기_16427.wav",
+        "fileSize": 1132902,
+        "duration": 11.801,
+        "fileFormat": "wav",
+        "sampleRate": "48.0kHz",
+        "bitRate": "768kbps",
+        "recodingType": "Mono"
+    },
+    "environment": {
+        "recordingTime": "18:04",
+        "dayNight": "주간",
+        "urban": "김해시",
+        "district": "어방동",
+        "place": "나대지",
+        "areaUse": "주거지역",
+        "weather": "흐림",
+        "direction": "위",
+        "distance": "10m",
+        "obstacle": "없음",
+        "acqMethod": "자연적",
+        "acqType": "제작",
+        "acqDevice": "TASCAMDR-05X",
+        "micClass": "무지향성",
+        "gps": {
+            "latitude": 35.25,
+            "longitude": 128.9
+        }
+    },
+    "annotations": [
+        {
+            "labelName": "3.항공기_16427_1.wav",
+            "area": {
+                "start": 2,
+                "end": 9.801
+            },
+            "categories": {
+                "category_01": "교통소음",
+                "category_02": "항공기",
+                "category_03": "비행기"
+            },
+            "subCategory": "민간항공기",
+            "soundQuality": "정상",
+            "decibel": 117
+        }
+    ]
+}

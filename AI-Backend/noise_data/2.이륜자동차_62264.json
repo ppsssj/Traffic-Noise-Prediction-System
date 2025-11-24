@@ -1,0 +1,60 @@
+{
+    "info": {
+        "description": "도시 소리 데이터",
+        "uri": "https://www.aihub.or.kr",
+        "version": 1.0,
+        "year": 2021,
+        "contributor": "IMR",
+        "dateCreated": "2021-11-12"
+    },
+    "license": {
+        "url": "https://www.aihub.or.kr",
+        "name": "CC 0"
+    },
+    "audio": {
+        "fileName": "2.이륜자동차_62264.wav",
+        "fileSize": 593024,
+        "duration": 6.723,
+        "fileFormat": "wav",
+        "sampleRate": "44.1kHz",
+        "bitRate": "705kbps",
+        "recodingType": "Mono"
+    },
+    "environment": {
+        "recordingTime": "16:52",
+        "dayNight": "주간",
+        "urban": "고양시",
+        "district": "용두동",
+        "place": "도로변",
+        "areaUse": "상업지역",
+        "weather": "맑음",
+        "direction": "우",
+        "distance": "10m",
+        "obstacle": "없음",
+        "acqMethod": "인위적",
+        "acqType": "제작",
+        "acqDevice": "갤럭시 탭 S6 Lite",
+        "micClass": "무지향성",
+        "gps": {
+            "latitude": 37.63,
+            "longitude": 126.88
+        }
+    },
+    "annotations": [
+        {
+            "labelName": "2.이륜자동차_62264_1.wav",
+            "area": {
+                "start": 2,
+                "end": 4.723
+            },
+            "categories": {
+                "category_01": "교통소음",
+                "category_02": "이륜자동차",
+                "category_03": "이륜차경적"
+            },
+            "subCategory": "이륜차경적",
+            "soundQuality": "정상",
+            "decibel": 72
+        }
+    ]
+}

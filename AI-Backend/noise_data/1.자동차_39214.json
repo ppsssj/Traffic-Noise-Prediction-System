@@ -1,0 +1,60 @@
+{
+    "info": {
+        "description": "도시 소리 데이터",
+        "uri": "https://www.aihub.or.kr",
+        "version": 1.0,
+        "year": 2021,
+        "contributor": "IMR",
+        "dateCreated": "2021-10-31"
+    },
+    "license": {
+        "url": "https://www.aihub.or.kr",
+        "name": "CC 0"
+    },
+    "audio": {
+        "fileName": "1.자동차_39214.wav",
+        "fileSize": 2492576,
+        "duration": 28.26,
+        "fileFormat": "wav",
+        "sampleRate": "44.1kHz",
+        "bitRate": "705kbps",
+        "recodingType": "Mono"
+    },
+    "environment": {
+        "recordingTime": "16:04",
+        "dayNight": "주간",
+        "urban": "아산시",
+        "district": "장존동",
+        "place": "건물내부",
+        "areaUse": "주거지역",
+        "weather": "비",
+        "direction": "좌",
+        "distance": "500m",
+        "obstacle": "창문",
+        "acqMethod": "자연적",
+        "acqType": "제작",
+        "acqDevice": "Galaxy S8+",
+        "micClass": "지향성",
+        "gps": {
+            "latitude": 36.75,
+            "longitude": 127.02
+        }
+    },
+    "annotations": [
+        {
+            "labelName": "1.자동차_39214_1.wav",
+            "area": {
+                "start": 0.33,
+                "end": 28.25
+            },
+            "categories": {
+                "category_01": "교통소음",
+                "category_02": "자동차",
+                "category_03": "차량사이렌"
+            },
+            "subCategory": "구급차",
+            "soundQuality": "정상",
+            "decibel": 74
+        }
+    ]
+}

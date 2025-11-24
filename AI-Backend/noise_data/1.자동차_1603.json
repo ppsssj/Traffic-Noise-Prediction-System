@@ -1,0 +1,60 @@
+{
+    "info": {
+        "description": "도시 소리 데이터",
+        "uri": "https://www.aihub.or.kr",
+        "version": 1.0,
+        "year": 2021,
+        "contributor": "IMR",
+        "dateCreated": "2021-09-04"
+    },
+    "license": {
+        "url": "https://www.aihub.or.kr",
+        "name": "CC 0"
+    },
+    "audio": {
+        "fileName": "1.자동차_1603.wav",
+        "fileSize": 6267628,
+        "duration": 35.531,
+        "fileFormat": "wav",
+        "sampleRate": "44.1kHz",
+        "bitRate": "1411kbps",
+        "recodingType": "Stereo"
+    },
+    "environment": {
+        "recordingTime": "10:29",
+        "dayNight": "주간",
+        "urban": "광주광역시",
+        "district": "운남동",
+        "place": "도로변",
+        "areaUse": "주거지역",
+        "weather": "흐림",
+        "direction": "우",
+        "distance": "25m",
+        "obstacle": "없음",
+        "acqMethod": "자연적",
+        "acqType": "제작",
+        "acqDevice": "아이폰12mini",
+        "micClass": "무지향성",
+        "gps": {
+            "latitude": 35.18,
+            "longitude": 126.82
+        }
+    },
+    "annotations": [
+        {
+            "labelName": "1.자동차_1603_1.wav",
+            "area": {
+                "start": 2,
+                "end": 33.531
+            },
+            "categories": {
+                "category_01": "교통소음",
+                "category_02": "자동차",
+                "category_03": "차량주행음"
+            },
+            "subCategory": "대형차",
+            "soundQuality": "정상",
+            "decibel": 113
+        }
+    ]
+}

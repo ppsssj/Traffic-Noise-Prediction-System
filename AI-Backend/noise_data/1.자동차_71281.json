@@ -1,0 +1,60 @@
+{
+    "info": {
+        "description": "도시 소리 데이터",
+        "uri": "https://www.aihub.or.kr",
+        "version": 1.0,
+        "year": 2021,
+        "contributor": "IMR",
+        "dateCreated": "2021-11-22"
+    },
+    "license": {
+        "url": "https://www.aihub.or.kr",
+        "name": "CC 0"
+    },
+    "audio": {
+        "fileName": "1.자동차_71281.wav",
+        "fileSize": 3000828,
+        "duration": 34.022,
+        "fileFormat": "wav",
+        "sampleRate": "44.1kHz",
+        "bitRate": "705kbps",
+        "recodingType": "Mono"
+    },
+    "environment": {
+        "recordingTime": "08:50",
+        "dayNight": "주간",
+        "urban": "인천광역시",
+        "district": "중산동",
+        "place": "도로변",
+        "areaUse": "녹지지역",
+        "weather": "맑음",
+        "direction": "위",
+        "distance": "14m",
+        "obstacle": "없음",
+        "acqMethod": "인위적",
+        "acqType": "제작",
+        "acqDevice": "TASCAM DR-05X",
+        "micClass": "무지향성",
+        "gps": {
+            "latitude": 37.5,
+            "longitude": 126.57
+        }
+    },
+    "annotations": [
+        {
+            "labelName": "1.자동차_71281_1.wav",
+            "area": {
+                "start": 2,
+                "end": 32.022
+            },
+            "categories": {
+                "category_01": "교통소음",
+                "category_02": "자동차",
+                "category_03": "차량사이렌"
+            },
+            "subCategory": "소방차",
+            "soundQuality": "정상",
+            "decibel": 74
+        }
+    ]
+}

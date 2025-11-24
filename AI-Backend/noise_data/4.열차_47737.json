@@ -1,0 +1,60 @@
+{
+    "info": {
+        "description": "도시 소리 데이터",
+        "uri": "https://www.aihub.or.kr",
+        "version": 1.0,
+        "year": 2021,
+        "contributor": "IMR",
+        "dateCreated": "2021-11-07"
+    },
+    "license": {
+        "url": "https://www.aihub.or.kr",
+        "name": "CC 0"
+    },
+    "audio": {
+        "fileName": "4.열차_47737.wav",
+        "fileSize": 1000462,
+        "duration": 11.343,
+        "fileFormat": "wav",
+        "sampleRate": "44.1kHz",
+        "bitRate": "705kbps",
+        "recodingType": "Mono"
+    },
+    "environment": {
+        "recordingTime": "13:04",
+        "dayNight": "주간",
+        "urban": "광주광역시",
+        "district": "신창동",
+        "place": "도로변",
+        "areaUse": "녹지지역",
+        "weather": "맑음",
+        "direction": "위",
+        "distance": "6m",
+        "obstacle": "없음",
+        "acqMethod": "자연적",
+        "acqType": "제작",
+        "acqDevice": "TASCAM DR-05X",
+        "micClass": "무지향성",
+        "gps": {
+            "latitude": 35.18,
+            "longitude": 126.84
+        }
+    },
+    "annotations": [
+        {
+            "labelName": "4.열차_47737_1.wav",
+            "area": {
+                "start": 2.05,
+                "end": 10.42
+            },
+            "categories": {
+                "category_01": "교통소음",
+                "category_02": "열차",
+                "category_03": "기차"
+            },
+            "subCategory": "일반열차",
+            "soundQuality": "정상",
+            "decibel": 102
+        }
+    ]
+}

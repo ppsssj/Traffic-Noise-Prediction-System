@@ -1,0 +1,60 @@
+{
+    "info": {
+        "description": "도시 소리 데이터",
+        "uri": "https://www.aihub.or.kr",
+        "version": 1.0,
+        "year": 2021,
+        "contributor": "IMR",
+        "dateCreated": "2021-11-28"
+    },
+    "license": {
+        "url": "https://www.aihub.or.kr",
+        "name": "CC 0"
+    },
+    "audio": {
+        "fileName": "1.자동차_76935.wav",
+        "fileSize": 2009852,
+        "duration": 22.741,
+        "fileFormat": "wav",
+        "sampleRate": "44.1kHz",
+        "bitRate": "705kbps",
+        "recodingType": "Mono"
+    },
+    "environment": {
+        "recordingTime": "16:46",
+        "dayNight": "주간",
+        "urban": "안성시",
+        "district": "대덕면",
+        "place": "물가",
+        "areaUse": "녹지지역",
+        "weather": "흐림",
+        "direction": "우",
+        "distance": "80m",
+        "obstacle": "없음",
+        "acqMethod": "자연적",
+        "acqType": "제작",
+        "acqDevice": "iPhone xs",
+        "micClass": "무지향성",
+        "gps": {
+            "latitude": 37.0,
+            "longitude": 127.23
+        }
+    },
+    "annotations": [
+        {
+            "labelName": "1.자동차_76935_1.wav",
+            "area": {
+                "start": 1.76,
+                "end": 18.37
+            },
+            "categories": {
+                "category_01": "교통소음",
+                "category_02": "자동차",
+                "category_03": "차량사이렌"
+            },
+            "subCategory": "구급차",
+            "soundQuality": "정상",
+            "decibel": 104
+        }
+    ]
+}

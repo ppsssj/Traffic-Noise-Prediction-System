@@ -1,0 +1,60 @@
+{
+    "info": {
+        "description": "도시 소리 데이터",
+        "uri": "https://www.aihub.or.kr",
+        "version": 1.0,
+        "year": 2021,
+        "contributor": "IMR",
+        "dateCreated": "2021-09-04"
+    },
+    "license": {
+        "url": "https://www.aihub.or.kr",
+        "name": "CC 0"
+    },
+    "audio": {
+        "fileName": "1.자동차_638.wav",
+        "fileSize": 11289620,
+        "duration": 64.0,
+        "fileFormat": "wav",
+        "sampleRate": "44.1kHz",
+        "bitRate": "1411kbps",
+        "recodingType": "Stereo"
+    },
+    "environment": {
+        "recordingTime": "11:30",
+        "dayNight": "주간",
+        "urban": "광주광역시",
+        "district": "장덕동",
+        "place": "도로변",
+        "areaUse": "학교지역",
+        "weather": "맑음",
+        "direction": "좌",
+        "distance": "10m",
+        "obstacle": "없음",
+        "acqMethod": "자연적",
+        "acqType": "제작",
+        "acqDevice": "GalaxyTapS6Lite",
+        "micClass": "무지향성",
+        "gps": {
+            "latitude": 35.2,
+            "longitude": 126.82
+        }
+    },
+    "annotations": [
+        {
+            "labelName": "1.자동차_638_1.wav",
+            "area": {
+                "start": 5.9,
+                "end": 11.7
+            },
+            "categories": {
+                "category_01": "교통소음",
+                "category_02": "자동차",
+                "category_03": "차량주행음"
+            },
+            "subCategory": "소형차",
+            "soundQuality": "정상",
+            "decibel": 68
+        }
+    ]
+}

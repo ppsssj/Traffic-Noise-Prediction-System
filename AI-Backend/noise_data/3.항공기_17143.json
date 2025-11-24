@@ -1,0 +1,60 @@
+{
+    "info": {
+        "description": "도시 소리 데이터",
+        "uri": "https://www.aihub.or.kr",
+        "version": 1.0,
+        "year": 2021,
+        "contributor": "IMR",
+        "dateCreated": "2021-09-06"
+    },
+    "license": {
+        "url": "https://www.aihub.or.kr",
+        "name": "CC 0"
+    },
+    "audio": {
+        "fileName": "3.항공기_17143.wav",
+        "fileSize": 1504276,
+        "duration": 15.669,
+        "fileFormat": "wav",
+        "sampleRate": "48.0kHz",
+        "bitRate": "768kbps",
+        "recodingType": "Mono"
+    },
+    "environment": {
+        "recordingTime": "10:34",
+        "dayNight": "주간",
+        "urban": "김포시",
+        "district": "풍무동",
+        "place": "옥상",
+        "areaUse": "주거지역",
+        "weather": "맑음",
+        "direction": "위",
+        "distance": "10m",
+        "obstacle": "없음",
+        "acqMethod": "자연적",
+        "acqType": "제작",
+        "acqDevice": "TASCAMDR-05X",
+        "micClass": "무지향성",
+        "gps": {
+            "latitude": 37.61,
+            "longitude": 126.72
+        }
+    },
+    "annotations": [
+        {
+            "labelName": "3.항공기_17143_1.wav",
+            "area": {
+                "start": 2,
+                "end": 13.669
+            },
+            "categories": {
+                "category_01": "교통소음",
+                "category_02": "항공기",
+                "category_03": "비행기"
+            },
+            "subCategory": "민간항공기",
+            "soundQuality": "정상",
+            "decibel": 103
+        }
+    ]
+}

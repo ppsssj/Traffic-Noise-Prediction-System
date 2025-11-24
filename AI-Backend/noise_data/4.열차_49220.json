@@ -1,0 +1,60 @@
+{
+    "info": {
+        "description": "도시 소리 데이터",
+        "uri": "https://www.aihub.or.kr",
+        "version": 1.0,
+        "year": 2021,
+        "contributor": "IMR",
+        "dateCreated": "2021-11-08"
+    },
+    "license": {
+        "url": "https://www.aihub.or.kr",
+        "name": "CC 0"
+    },
+    "audio": {
+        "fileName": "4.열차_49220.wav",
+        "fileSize": 2346200,
+        "duration": 26.6,
+        "fileFormat": "wav",
+        "sampleRate": "44.1kHz",
+        "bitRate": "705kbps",
+        "recodingType": "Mono"
+    },
+    "environment": {
+        "recordingTime": "18:50",
+        "dayNight": "주간",
+        "urban": "서울특별시",
+        "district": "청담동",
+        "place": "지하",
+        "areaUse": "주거지역",
+        "weather": "맑음",
+        "direction": "좌",
+        "distance": "1m",
+        "obstacle": "창문",
+        "acqMethod": "자연적",
+        "acqType": "제작",
+        "acqDevice": "a31",
+        "micClass": "무지향성",
+        "gps": {
+            "latitude": 37.52,
+            "longitude": 127.06
+        }
+    },
+    "annotations": [
+        {
+            "labelName": "4.열차_49220_1.wav",
+            "area": {
+                "start": 0.01,
+                "end": 26.6
+            },
+            "categories": {
+                "category_01": "교통소음",
+                "category_02": "열차",
+                "category_03": "지하철"
+            },
+            "subCategory": "지하철",
+            "soundQuality": "노이즈",
+            "decibel": 78
+        }
+    ]
+}

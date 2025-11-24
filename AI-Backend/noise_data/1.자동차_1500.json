@@ -1,0 +1,60 @@
+{
+    "info": {
+        "description": "도시 소리 데이터",
+        "uri": "https://www.aihub.or.kr",
+        "version": 1.0,
+        "year": 2021,
+        "contributor": "IMR",
+        "dateCreated": "2021-09-04"
+    },
+    "license": {
+        "url": "https://www.aihub.or.kr",
+        "name": "CC 0"
+    },
+    "audio": {
+        "fileName": "1.자동차_1500.wav",
+        "fileSize": 1261322,
+        "duration": 14.3,
+        "fileFormat": "wav",
+        "sampleRate": "44.1kHz",
+        "bitRate": "705kbps",
+        "recodingType": "Mono"
+    },
+    "environment": {
+        "recordingTime": "11:27",
+        "dayNight": "주간",
+        "urban": "수원시",
+        "district": "세류동",
+        "place": "도로변",
+        "areaUse": "주거지역",
+        "weather": "흐림",
+        "direction": "우",
+        "distance": "10m",
+        "obstacle": "없음",
+        "acqMethod": "자연적",
+        "acqType": "제작",
+        "acqDevice": "갤럭시탭S6",
+        "micClass": "무지향성",
+        "gps": {
+            "latitude": 37.25,
+            "longitude": 127.01
+        }
+    },
+    "annotations": [
+        {
+            "labelName": "1.자동차_1500_1.wav",
+            "area": {
+                "start": 2,
+                "end": 12.3
+            },
+            "categories": {
+                "category_01": "교통소음",
+                "category_02": "자동차",
+                "category_03": "차량주행음"
+            },
+            "subCategory": "대형차",
+            "soundQuality": "정상",
+            "decibel": 122
+        }
+    ]
+}

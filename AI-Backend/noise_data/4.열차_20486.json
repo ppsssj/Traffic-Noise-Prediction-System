@@ -1,0 +1,60 @@
+{
+    "info": {
+        "description": "도시 소리 데이터",
+        "uri": "https://www.aihub.or.kr",
+        "version": 1.0,
+        "year": 2021,
+        "contributor": "IMR",
+        "dateCreated": "2021-10-03"
+    },
+    "license": {
+        "url": "https://www.aihub.or.kr",
+        "name": "CC 0"
+    },
+    "audio": {
+        "fileName": "4.열차_20486.wav",
+        "fileSize": 1084204,
+        "duration": 6.146,
+        "fileFormat": "wav",
+        "sampleRate": "44.1kHz",
+        "bitRate": "1411kbps",
+        "recodingType": "Stereo"
+    },
+    "environment": {
+        "recordingTime": "18:32",
+        "dayNight": "주간",
+        "urban": "서울특별시",
+        "district": "가산동",
+        "place": "도로변",
+        "areaUse": "상업지역",
+        "weather": "맑음",
+        "direction": "좌",
+        "distance": "30m",
+        "obstacle": "없음",
+        "acqMethod": "자연적",
+        "acqType": "제작",
+        "acqDevice": "Galaxy A31",
+        "micClass": "무지향성",
+        "gps": {
+            "latitude": 37.48,
+            "longitude": 126.88
+        }
+    },
+    "annotations": [
+        {
+            "labelName": "4.열차_20486_1.wav",
+            "area": {
+                "start": 0.03,
+                "end": 6.12
+            },
+            "categories": {
+                "category_01": "교통소음",
+                "category_02": "열차",
+                "category_03": "지하철"
+            },
+            "subCategory": "지하철",
+            "soundQuality": "정상",
+            "decibel": 128
+        }
+    ]
+}
