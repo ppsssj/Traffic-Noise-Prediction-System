@@ -133,7 +133,7 @@ npm start
 
 ### 3) React 기반 지도 UI (예측 + 원인 분석)
 <p align="center">
-  <img src="assets/ui.png" alt="React Map UI - Prediction and Attribution" width="900"/>
+  <img src="assets/그림6.png" alt="React Map UI - Prediction and Attribution" width="900"/>
 </p>
 
 ---
@@ -146,5 +146,6 @@ npm start
   `feature_list.json`, `cat_cols.json`을 함께 갱신해야 함
 * 프론트엔드는 API 응답 스키마에 의존하므로
   필드명 변경 시 반드시 동기화 필요
+
 
 
