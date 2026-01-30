@@ -111,6 +111,34 @@ npm start
 
 ---
 
+## 🖼️ 시스템 구성 및 결과 예시
+
+### 1) 전체 파이프라인
+<p align="center">
+  <img src="assets/그림1.png" alt="Traffic Noise Prediction Pipeline" width="720"/>
+</p>
+
+### 2) 교통수단별 Feature Importance (Top-15)
+<p align="center">
+  <img src="assets/그림3.png" alt="Top-15 Feature Importance - Car" width="720"/>
+</p>
+
+<p align="center">
+  <img src="assets/그림4.png" alt="Top-15 Feature Importance - Motorcycle" width="720"/>
+</p>
+
+<p align="center">
+  <img src="assets/그림5.png" alt="Top-15 Feature Importance - Train" width="720"/>
+</p>
+
+### 3) React 기반 지도 UI (예측 + 원인 분석)
+<p align="center">
+  <img src="assets/ui.png" alt="React Map UI - Prediction and Attribution" width="900"/>
+</p>
+
+---
+
+
 ## 📌 참고 및 개발 규칙
 
 * `node_modules/`, `__pycache__/`, `.pkl` 등은 ZIP 제출 시 제외
@@ -118,4 +146,5 @@ npm start
   `feature_list.json`, `cat_cols.json`을 함께 갱신해야 함
 * 프론트엔드는 API 응답 스키마에 의존하므로
   필드명 변경 시 반드시 동기화 필요
+
 
